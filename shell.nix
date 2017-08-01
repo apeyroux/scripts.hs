@@ -7,6 +7,7 @@ stdenv.mkDerivation {
     buildInputs = [
     haskellPackages.stack
     cabal2nix
+    cabal-install
     haskellPackages.directory
     haskellPackages.MissingH
     ];
