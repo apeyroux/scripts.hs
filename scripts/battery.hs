@@ -1,13 +1,10 @@
 #!/usr/bin/env stack
 -- stack --install-ghc runghc --nix --nix-pure --package "directory" --package "text"
 
-{-# LANGUAGE OverloadedStrings #-}
-
 import System.Directory
 import Control.Monad
 import System.FilePath.Posix
 import Data.List
-import qualified Data.Text as T
 
 type BattName = String
 
